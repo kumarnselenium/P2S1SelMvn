@@ -19,18 +19,18 @@ public class FileUploadTest {
 	@Test
 	public void example() throws AWTException, InterruptedException, MalformedURLException
 	{
-		/*System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Selenium Docs\\BrowserDrivers\\ChromeDriver.exe");
-		ChromeDriver oBrowser = new ChromeDriver();*/
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Selenium Docs\\BrowserDrivers\\ChromeDriver.exe");
+		ChromeDriver oBrowser = new ChromeDriver();
 	
 		//just updates
-		System.out.println("hi");
+		/*System.out.println("hi");
 		
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setBrowserName("chrome");
 		cap.setVersion("58");
 		cap.setPlatform(org.openqa.selenium.Platform.WINDOWS);
 		RemoteWebDriver oBrowser = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
-
+*/
 		//System.setProperty("webdriver.chrome.driver", "");
 		oBrowser.get("http://www.zamzar.com/");
 		//oBrowser.manage().window().maximize();

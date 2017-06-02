@@ -25,15 +25,16 @@ public class ParameterizationTest {
 		//3. Enter "laptop" in search text box
 		//3.a ==> Recognize the text box ==> oBrowser.findElement(By.id("gh-ac"))
 		//3.b then Enter value to the text box
-		oBrowser.findElement(By.id("gh-ac")).clear();
+	/*	oBrowser.findElement(By.id("gh-ac")).clear();
 		oBrowser.findElement(By.id("gh-ac")).sendKeys(oExcel.getCellData("SearchFor", 1));
 		
 		//4. Click on "Search" button
 		oBrowser.findElement(By.id("gh-btn")).click();
 		
 		//5. Click on "Advanced" link
-		oBrowser.findElement(By.linkText("Advanced")).click();
+		oBrowser.findElement(By.linkText("Advanced")).click();*/
 		
+		oBrowser.quit();
 	}
 
 	public void eBayInChromeDataDrivenScenario() throws InterruptedException
